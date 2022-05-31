@@ -13,14 +13,13 @@ body{
 }
 
 i{
-    width: 32px;
-    height: 32px;
+    font-size: 2rem;
 }
 
 .header{
     background-color: #343a40;
     color: #fff;
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
