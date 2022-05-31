@@ -3,23 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>DCP</title>
-        <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
     </head>
-    <body>
-       <header>
-           <nav class="navbar navbar-dark bg-dark">
-               <div class="container-fluid">
-                  <span class="navbar-toggler-icon"></span>
-                  <span class="navbar-brand mb-0 h1">HOME</span>
-                  <span class="navbar-brand">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                    </svg>
-                  </span>
-                  
-               </div>
-           </nav>
+    <body class="bg-dark">
+       <header class="header sticky-top">
+           <i class="fa-solid fa-bars"></i>
+           <h1 class="title">HOME</h1>
+           <i class="fa-solid fa-magnifying-glass"></i>
        </header>
+       
+       <main>
+          <div class="container">
+              <a class="link-card" href="">
+                <div class="card"">
+                    <div class="card-top">
+                        <img class=" card-img" src="./assets/images/gov.png" alt="gouvernment logo">
+                    </div>
+                                    
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                    </div>
+                </div>
+              </a>
+              
+          </div>  
+       </main>
        
        <script src="./assets/bootstrap/js/bootstrap.js" ></script>
     </body>
