@@ -35,8 +35,8 @@ i{
     padding: 20px;
     background-image: url('../assets/images/hand-1030571.jpg');
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,4 +67,12 @@ i{
 .card-title{
     font-size: 20px;
     font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+
 }
