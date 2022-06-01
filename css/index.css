@@ -53,7 +53,7 @@ i{
     align-items: center;
     justify-content: space-between;
     background-color: #343a40;
-    background-image:  url('../assets/images/hand-1030571.jpg');
+    background-image: url('../assets/images/hand-1030571.jpg');
     background-size: cover;
     cursor: pointer;
     border-radius: 10px;
@@ -65,7 +65,7 @@ i{
 }
 
 .card-img-container{
-    background-color: rgba(240, 248, 255, 0.5);
+    /* background-color: rgba(240, 248, 255, 0.5); */
     margin-top: 30px;
 }
 
