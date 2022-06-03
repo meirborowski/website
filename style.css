@@ -49,34 +49,56 @@ i{
 .card {
     text-decoration: none;
     grid-column-end: span 3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    padding-top: calc(9/16 * 100%);
     background-color: #343a40;
     background: url('./assets/images/background.png') center center no-repeat;
     background-size: cover;
     cursor: pointer;
     border-radius: 10px;
     transition: all .3s ease 0s;
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    
+     */
 }
 
 .card:hover{
     transform: translateY(-7px);
 }
 
-.card-img-container{
+.card-content{
+    width: 100%;
+    padding-top: calc(9/16 * 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.card-img-container > img{
+.card-body {
+    position: absolute;
+    top: calc(9/16 * 93.5%);
+}
+
+.card-img-container {
+    flex: 0.5;
+    height: 68%;
+    position: absolute;
+    top: 0;
+    width: 42%;
+    left: 33%;
+}
+
+.card-img-container > img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
-
-.card-body{
-    color: #fff;
-    padding: 20px;
+    object-fit: fill;
 }
 
 .footer{
