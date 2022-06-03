@@ -54,7 +54,7 @@ i{
     grid-column-end: span 3;
     padding-top: calc(9/16 * 100%);
     background-color: #343a40;
-    background: url('./assets/images/background.png') center center no-repeat;
+    background: url('./assets/images/background.jpg') center center no-repeat;
     background-size: cover;
     cursor: pointer;
     border-radius: 10px;
