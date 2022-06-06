@@ -60,13 +60,6 @@ i{
     border-radius: 10px;
     transition: all .3s ease 0s;
     position: relative;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #343a40;
-    
-     */
 }
 
 .card:hover{
@@ -75,27 +68,29 @@ i{
 
 .card-content{
     width: 100%;
-    padding-top: calc(9/16 * 100%);
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .card-body {
-    position: absolute;
-    top: calc(9/16 * 93.5%);
+    flex: 0.25;
+    padding: 10px;
+}
+
+.card-title{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .card-img-container {
-    flex: 0.5;
-    height: 68%;
-    position: absolute;
-    top: 0;
+    flex: 0.75;
     width: 42%;
-    left: 33%;
+    padding-left: 7%;
 }
 
 .card-img-container > img {
@@ -121,6 +116,29 @@ i{
     .card{
         grid-column-end: span 6;
     }
+
+    .card-body {
+        padding: 30px;
+    }
+    
+    .card-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .card {
+        grid-column-end: span 6;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -130,6 +148,14 @@ i{
 
     .card {
         grid-column-end: span 6;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
     }
 }
 
@@ -147,5 +173,13 @@ i{
 
     .card {
         grid-column-end: span 6;
+    }
+
+    .card-body{
+        padding: 30px;
+    }
+
+    .card-title{
+        font-size: 1.5rem;
     }
 }
