@@ -1,11 +1,8 @@
-// starting screen
+
+// redirect to home page
 window.addEventListener('load', function() {
     setTimeout(()=>{
-        var loader = document.getElementById('loader');
-        var home_page = document.getElementById('home-page');
-
-        loader.style.display = 'none';
-        home_page.style.display = 'block';
+        window.location.href = 'home.html';
     }, 3000);
 }
 );

@@ -42,20 +42,27 @@ i{
 }
 
 .loader-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* max-width: 900px; */
     margin: auto auto;
 }
 
+.loader-container > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    height: 100%;
+}
+
 .loader-img-container{
-    min-height: 150px;
+    height: 100%;
 }
 
 .loader-img-container > img{
-    height: 100%;
+    /* image contain */
+    max-width: 100%;
+    max-height: calc(100vh / 4);
 }
 
 .header{
@@ -174,6 +181,16 @@ i{
 
     bottom: 0;
     height: 100%;
+    min-height: 160px;
+}
+
+.logo-container {
+    height: 100%;
+}
+
+.logo-container > img{
+    height: 100%;
+    width: 400px;
 }
 
 @media only screen and (max-width: 1200px) {
