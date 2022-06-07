@@ -25,6 +25,39 @@ i{
     font-size: 2rem;
 }
 
+.home-page{
+    display: none;
+}
+
+.loader{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/images/hand-1030571.jpg') center center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: auto auto;
+}
+
+.loader-img-container{
+    min-height: 150px;
+}
+
+.loader-img-container > img{
+    height: 100%;
+}
+
 .header{
     background-color: #343a40;
     color: #fff;
