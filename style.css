@@ -32,6 +32,26 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: auto;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+.middle-header{
+    margin: 0 auto;
+}
+
+.right-header{
+    margin-left: auto;
+}
+
+.page-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 40px;
 }
 
 .sticky-top{
@@ -93,7 +113,7 @@ i{
 }
 
 .card-title{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 0;
     margin: auto;
