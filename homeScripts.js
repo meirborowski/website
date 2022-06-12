@@ -1,6 +1,6 @@
 
 function launchKhanApp() {
-    const url = "intent://chromecast.com/#Intent;scheme=comgooglecast;package=com.google.android.apps.chromecast.app;end";
+    const url = "intent://clever.khanacademykids.org/#Intent;scheme=https;package=org.khankids.android;end";
 
     if (navigator.userAgent.toLowerCase().indexOf('android') > -1) {
         window.location.href = url;
