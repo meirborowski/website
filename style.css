@@ -312,10 +312,12 @@ i{
 
     .card-title {
         font-size: 3.8rem;
+        letter-spacing: -0.05rem;
     }
 
     .card-title-inner {
         font-size: 2rem;
+        letter-spacing: -0.05rem;
     }
 
     .title {
