@@ -12,7 +12,7 @@ function launchKhanApp() {
 
 
 function launchODKApp() {
-    const url = "intent://clever.khanacademykids.org/#Intent;scheme=https;package=org.odk.collect.android;end";
+    const url = "intent://clever.khanacademykids.org/#Intent;scheme=https;package=org.khankids.android;end";
 
     if (navigator.userAgent.toLowerCase().indexOf('android') > -1) {
         window.location.href = url;
