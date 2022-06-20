@@ -43,14 +43,19 @@ i{
     grid-template-columns: 1fr;
     max-width: 900px;
     width: 70%;
-    margin: auto auto;
+    /* margin: auto auto; */
 }
 
-.loader-container > h1 h2{
+#dcp{
+    font-size: 3.9rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#title{
     font-size: 3rem;
     font-weight: bold;
-    color: #fff;
-    height: 100%;
+    margin: 10px 0;
 }
 
 .loader-img-container{
