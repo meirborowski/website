@@ -182,8 +182,7 @@ i{
 
 .card-img-container {
     flex: 0.69;
-    width: 45%;
-    /* padding-left: 7%; */
+    height: 100px;
 }
 
 .card-img-container > img {
