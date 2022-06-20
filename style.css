@@ -12,9 +12,9 @@ a{
     color: #fff;
 }
 
-.bg-dark{
+/* .bg-dark{
     /* background-color: #343a40; */
-}
+} */
 
 .bg-light{
     background-color: #f8f9fa;
@@ -35,16 +35,18 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .loader-container{
     display: grid;
     grid-template-columns: 1fr;
-    /* max-width: 900px; */
+    max-width: 900px;
+    width: 70%;
     margin: auto auto;
 }
 
-.loader-container > h1 {
+.loader-container > h1 h2{
     font-size: 3rem;
     font-weight: bold;
     color: #fff;
@@ -52,7 +54,7 @@ i{
 }
 
 .loader-img-container{
-    height: 100%;
+    width: 100%;
 }
 
 .loader-img-container > img{
