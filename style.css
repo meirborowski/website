@@ -175,7 +175,7 @@ i{
 }
 
 .card-title{
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     font-weight: bold;
     padding: 0;
     margin: auto;
@@ -230,11 +230,11 @@ i{
     }
 
     .card-title{
-        font-size: 3.1rem;
+        font-size: 3rem;
     }
 
     .card-title-inner {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -245,26 +245,15 @@ i{
     }
 
     .card-title {
-        font-size: 2.9rem;
+        font-size: 2.7rem;
     }
 
     .card-title-inner {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 }
 
 @media only screen and (max-width: 900px) {
-
-    .card-title {
-        font-size: 2.4rem;
-    }
-
-    .card-title-inner {
-        font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 785px) {
 
     .card-title {
         font-size: 2.2rem;
@@ -275,14 +264,25 @@ i{
     }
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (max-width: 785px) {
 
     .card-title {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
 
     .card-title-inner {
         font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+
+    .card-title {
+        font-size: 1.9rem;
+    }
+
+    .card-title-inner {
+        font-size: 1.1rem;
     }
 }
 
@@ -296,7 +296,7 @@ i{
     }
 
     .card-title {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .card-title-inner {
@@ -306,11 +306,11 @@ i{
 
 @media only screen and (max-width: 670px) {
     .card-title {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .card-title-inner {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
