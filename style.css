@@ -183,6 +183,7 @@ i{
 
 .card-title-inner {
     font-size: 1rem;
+    letter-spacing: -0.04rem;
 }
 
 .card-img-container {
@@ -337,7 +338,6 @@ i{
 
     .card-title-inner {
         font-size: 2rem;
-        letter-spacing: -0.05rem;
     }
 
     .title {
