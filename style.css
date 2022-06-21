@@ -179,6 +179,7 @@ i{
     font-weight: bold;
     padding: 0;
     margin: auto;
+    letter-spacing: -0.03rem;
 }
 
 .card-title-inner {
@@ -333,7 +334,7 @@ i{
 
     .card-title {
         font-size: 3.5rem;
-        letter-spacing: -0.05rem;
+        letter-spacing: -0.02rem;
     }
 
     .card-title-inner {
